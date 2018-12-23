@@ -1,4 +1,11 @@
-using System;
+/*
+ * File:      test2.cs
+ * Copyright: (c) 2018 Gerrard de Jonge <development.gdj@netvisit.nl>
+ * License:   GPLv2 (see file COPYING)
+ *
+ */
+ 
+ using System;
 
 class test2 {
 	static void Main() {
