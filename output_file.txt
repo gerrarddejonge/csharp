@@ -1,0 +1,7 @@
+Ali Ahmad Average: 70.82 Grade: C
+Sami Ashraf Average: 61.60 Grade: D
+Mona Abdelghani Average: 79.58 Grade: C
+Samah Mohammad Average: 74.23 Grade: C
+Salem Hani Average: 85.85 Grade: B
+Arwa Farid Average: 56.35 Grade: F
+Salah Naser Average: 93.72 Grade: A
