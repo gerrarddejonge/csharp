@@ -50,8 +50,8 @@ using System.Collections.Generic;
 class Student {
 	public string firstname;
 	public string familyname;
-	public List<Double> scores;
-	public double avg {
+	public List<double> scores;
+	public double Avg {
 		get {
 			double total = 0;
 			foreach (var item in scores) {
@@ -62,11 +62,11 @@ class Student {
 	}
 	public char Score { 
 		get {
-			if (avg >= 90) return 'A';
-			else if (avg >= 80) return 'B';
-			else if (avg >= 70) return 'C';
-			else if (avg >= 60) return 'D';
-			else if (avg >= 50) return 'F';
+			if (Avg >= 90) return 'A';
+			else if (Avg >= 80) return 'B';
+			else if (Avg >= 70) return 'C';
+			else if (Avg >= 60) return 'D';
+			else if (Avg >= 50) return 'F';
 			else return 'U';
 		}
 	}
@@ -77,6 +77,7 @@ class Student {
 		scores = new List<Double>();
 	}
 	
+	public override string ToString() => firstname + " " + familyname;
 }
  
  
@@ -116,7 +117,7 @@ class Program {
 	{
 		System.IO.StreamWriter file = new System.IO.StreamWriter(filename);
 		foreach (var item in students) {
-			file.WriteLine("{0} {1} Average: {2:F2} Grade: {3}", item.firstname, item.familyname, item.avg, item.Score);
+			file.WriteLine($"{item} Average: {item.Avg:F2} Grade: {item.Score}");
 		}
 		file.Close();
 	}

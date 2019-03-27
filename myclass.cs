@@ -1,3 +1,13 @@
+/*
+ * File:      myclass.cs
+ * Copyright: (c) 2019 Gerrard de Jonge <development.gdj@netvisit.nl>
+ * License:   GPLv2 (see file COPYING)
+ *
+ *
+ * Description
+ *            Test of overriding a class method
+ */
+ 
 using System.Collections.Generic;
 using System;
 
