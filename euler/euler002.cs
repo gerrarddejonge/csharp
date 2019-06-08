@@ -15,6 +15,23 @@ using System;
 
 class Program {
 	static void Main() {
+		int MAXFIB = 4000000;
+		int fib1 = 1;
+		int fib2 = 2;
+		int temp = 0;
+		int total = 2;
+
+		while (temp < MAXFIB) {
+			temp = fib1 + fib2;
+			if (temp % 2 == 0) {
+				total += temp;
+			}
+			fib1 = fib2;
+			fib2 = temp;
+		}
+
+		Console.WriteLine("The total is: {0}", total);
+
 
 
 
